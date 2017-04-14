@@ -8,6 +8,6 @@ class PlaceholderContainer
 {
     public function call(Twig $twig):string
     {
-        return $twig->render('Placeholder::content.Placeholder');
+        return $twig->render('Placeholder::content.placeholder');
     }
 }
